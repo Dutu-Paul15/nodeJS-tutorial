@@ -1,0 +1,26 @@
+__dirname -> path to current directory (console.log(__dirname) shows that if you want)
+
+__filename -> file name
+
+require -> function to use modules
+
+module -> info about current module (file)
+
+process -> info about the env where the program is being executed
+
+Example of using setInterval():
+            setInterval(() => {
+	 	   console.log('Hello, world!')
+		}, 1000); - the message is printed every second
+
+Every file in nodeJs is a module
+
+BUILT IN MODULES: (os, fs, path, http etc.)
+
+npm init -y -> creates the package.json with default values for all the fields
+
+nodemon -> whatches our files and restart the server everytime we make a change
+
+!!Read about dependencies vs devDependencies in package.json (i think devDependencies
+stands for the application development process only and in production, just the
+dependencies are needed)
