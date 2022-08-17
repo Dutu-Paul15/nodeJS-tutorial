@@ -13,7 +13,7 @@ Example of using setInterval():
 	 	   console.log('Hello, world!')
 		}, 1000); - the message is printed every second
 
-Every file in nodeJs is a module
+!!! Every file in nodeJs is a module
 
 BUILT IN MODULES: (os, fs, path, http etc.)
 
@@ -24,3 +24,17 @@ nodemon -> whatches our files and restart the server everytime we make a change
 !!Read about dependencies vs devDependencies in package.json (i think devDependencies
 stands for the application development process only and in production, just the
 dependencies are needed)
+
+
+How do we get Node to evaluate our code? - we have two options:
+	REPL - for playing around -> "ctrl + c" to close the REPL
+	CLI - for everything else (you want to use this when you master NodeJS)
+	
+`` - these are template strings
+
+a package, essentially, is a folder that contains some JS code
+
+package = dependencies = modules
+
+With event loop, you can offload some time consuming operations
+(this is the asynchronous approach)
